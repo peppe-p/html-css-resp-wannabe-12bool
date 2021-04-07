@@ -103,6 +103,10 @@
     .off-S11 {
         margin-left: calc((100% / 12) * 11);
     }
+
+    .container.blue {
+        background-color:steelblue;
+    }
 }
 
 
@@ -182,13 +186,17 @@
     .off-M11 {
         margin-left: calc((100% / 12) * 11);
     }
+
+    .container.red {
+        background-color:#a74141;
+    }
 }
 
 
 /* ###################### */
 /* ##### L - LAPTOP ##### */
 /* ###################### */
-@media all and (max-width: 992px) {
+@media all and (min-width: 992px) {
     .col-L1 {
         width: calc((100% / 12) * 1);
     }
@@ -260,6 +268,10 @@
     }
     .off-L11 {
         margin-left: calc((100% / 12) * 11);
+    }
+
+    .container.grey {
+        background-color:rgb(146, 146, 146);
     }
 }
 
